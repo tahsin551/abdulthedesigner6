@@ -1,0 +1,270 @@
+.nav a:hover{
+background-color: #f9f5f5;
+}
+nav a {
+      color: #0ff;
+      text-decoration: none;
+      transition: 0.3s;
+}
+#hero {
+  background-image: url('images/Tahsu\ car.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#about {
+  background-image: url('images/pc-1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: initial;
+}
+.about{
+  padding: 50px;
+  margin-top: 2px;
+}
+#contact{
+  margin-top: 100px;
+}
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.2; /* You can adjust opacity for better readability */
+}
+
+
+
+
+HERO //
+
+#animatedText span {
+  display: inline-block;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Background image and blur */
+.background {
+  background: url('your-background-image.jpg') no-repeat center center/cover;
+  filter: blur(8px);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+.login-box {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 40px;
+  margin: 100px 0;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  height: fit-content;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"],
+.login-box input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #c32148;
+  border: none;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.subscribe-message {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.subscribe-message input[type="email"] {
+  margin-top: 8px;
+}
+
+
+
+.thank-you {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  display: none;
+  opacity: 0;
+}
+
+.thank-you.show {
+  display: block;
+  animation: splash 2s ease-in-out forwards;
+}
+
+.thank-you a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Splash animation */
+@keyframes splash {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotate(-10deg);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.05) rotate(2deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+
+
+
+
+.services-grid {
+  display: grid;
+   grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.service-box {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: left;
+  transition: transform 0.3s;
+  border: 1px solid #333;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+  border-color: #c32148;
+}
+
+.service-box .icon {
+  margin-bottom: 15px;
+}
+
+.service-box h3 {
+  color: #c32148;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.service-box ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.service-box ul li {
+  margin-bottom: 5px;
+}
+
+/--- footer   
+ 
+
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+
+}
+
+.social-icons a svg {
+  transition: transform 0.3s ease;
+ 
+}
+
+.social-icons a:hover svg {
+  transform: scale(1.2);
+  fill: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+.animate-text span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  white-space: pre; /* preserves spaces */
+}
+
+.animate-text.visible span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+
+
