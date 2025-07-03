@@ -19,16 +19,22 @@
       scroll-behavior: smooth;
     }
     nav {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background: #111;
-      padding: 1em;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 1000;
-    }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  position: relative;
+
+  background: rgba(17, 17, 17, 0.8); /* Slight transparency */
+  backdrop-filter: blur(10px);       /* Adds blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05); /* Optional subtle border */
+}
+
     .nav-links {
       display: flex;
       gap: 2rem;
@@ -42,17 +48,21 @@
       color: #000000;
       background-color: rgb(255, 255, 255);
     }
-    .menu-toggle {
-      display: none;
-      flex-direction: column;
-      cursor: pointer;
-      
-    }
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 
     .menu-toggle span {
       width: 25px;
       height: 3px;
-      background: #0ff;
+      background: #C32148;
       margin: 4px 0;
       transition: 0.3s;
     }
@@ -292,7 +302,7 @@
   </div>
 </section>
  
-/*HIRE */
+
 
 <section id="resume">
   <h2 class="animate-text">Download My Resume</h2>
@@ -310,7 +320,10 @@
 
   <h2 class="animate-text">Hire Me</h2>
     <p class="animate-text">Interested in working together? Let’s make something amazing!</p>
-    <button class="btn animate-text" onclick="scrollToSection('contact')">Let's Work</button>
+    <a href="https://wa.me/+8801849371426" target="_blank" rel="noopener">
+  <button class="btn animate-text">Let's Work</button>
+</a>
+
     <div class="animated">Abdul theDesigner &bull; Abdul theDesigner &bull; </div>
   </section>
 
