@@ -7,13 +7,13 @@ nav a {
       transition: 0.3s;
 }
 #hero {
-  background-image: url('images/design.png');
+  background-image: url('images/design.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 #about {
-  background-image: url('images/pc-1.jpg');
+  background-image: url('images/me.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
