@@ -13,11 +13,12 @@ nav a {
   background-repeat: no-repeat;
 }
 #about {
-  background-image: url('images/me.jpg');
+  background-image: url('images/me\ \(2\).jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: initial;
+  text-emphasis-color: black;
 }
 .about{
   padding: 50px;
