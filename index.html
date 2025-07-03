@@ -25,7 +25,7 @@
       background: #111;
       padding: 1em;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       z-index: 1000;
     }
@@ -46,6 +46,7 @@
       display: none;
       flex-direction: column;
       cursor: pointer;
+      
     }
 
     .menu-toggle span {
@@ -96,9 +97,11 @@
     .hero h1 {
       font-size: 3rem;
       margin-bottom: 20px;
+      color: #111;
     }
     .hero p {
       font-size: 1.2rem;
+      color: black;
     }
     .animated {
       position: absolute;
@@ -166,6 +169,8 @@
       <a href="#hire">Hire Me</a>
       <a href="#contact">Contact</a>
       <a href="#footer">Tahsin</a>
+      <a href="#resume">Resume</a>
+
     </div>
   </nav>
 
@@ -286,7 +291,16 @@
     </div>
   </div>
 </section>
+ 
+/*HIRE */
 
+<section id="resume">
+  <h2 class="animate-text">Download My Resume</h2>
+  <p class="animate-text">You can download my latest resume in PDF format below.</p>
+  <a href="files/Md.Abdul Karim.pdf" download>
+    <button class="btn animate-text">Download Resume</button>
+  </a>
+</section>
 
   <section id="hire">
     <video autoplay muted loop playsinline class="bg-video">
