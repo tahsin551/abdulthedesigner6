@@ -14,7 +14,7 @@ nav a {
   width: 100%;
 }
 #about {
-  background-image: url('images/Futuristic\ VR\ Portrait.png');
+  background-image: url('images/tv.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,6 +22,7 @@ nav a {
   text-emphasis-color: black;
   width: 100%;
 }
+
 .about{
   padding: 50px;
   margin-top: 2px;
