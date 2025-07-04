@@ -7,14 +7,14 @@ nav a {
       transition: 0.3s;
 }
 #hero {
-  background-image: url('images/design.jpg');
+  background-image: url('images/Minimalist\ Vases\ Collection.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
 }
 #about {
-  background-image: url('images/me\ \(2\).jpg');
+  background-image: url('images/Futuristic\ VR\ Portrait.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@ HERO //
   display: inline-block;
 }
 
- 
+
 
 
 
